@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +35,12 @@
     transform: rotate(360deg);
   }
 }
+.poster {
+    width:  350px;
+    height: 450px;
+    object-fit: cover;
+}
+.form-check-input {
+  width: 25px;
+  height: 25px;
+} 
